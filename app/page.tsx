@@ -81,6 +81,11 @@ export default function Home() {
           </p>
         </a>
       </div>
+
+      {/* Adding Akshay's name */}
+      <div className={styles.author}>
+        <p>Modified by Akshay</p>
+      </div>
     </main>
   )
 }
